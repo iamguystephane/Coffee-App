@@ -25,6 +25,11 @@ const HomePage = () => {
             <Text className="text-white text-center">Contact us</Text>
           </Pressable>
         </Link>
+        <Link href="/menu" className="mx-auto my-10" asChild>
+          <Pressable className="rounded bg-black/50 w-32 px-5 py-2">
+            <Text className="text-white text-center">Shop Menu</Text>
+          </Pressable>
+        </Link>
       </ImageBackground>
     </View>
   );
